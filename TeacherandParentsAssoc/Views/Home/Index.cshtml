@@ -1,0 +1,126 @@
+﻿<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<link href="~/Content/css/ionicons.min.css" rel="stylesheet" />
+
+@if (Session["admin"].ToString() == "adminsettings")
+{
+
+    @*CARDS*@
+    <h1 class="m-0">Dashboard | Admin</h1>
+    <div class="row">
+
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="fa fa-gears"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Activities</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-red"><i class="fa fa-wrench"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Assignments</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-green"><i class="fa fa-archive"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Projects</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="fa fa-bookmark"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Events</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+}
+else
+{
+
+
+    @*CARDS*@
+    <h1 class="m-0">Dashboard | Parent</h1>
+    <div class="row">
+
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="fa fa-gears"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Activities</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-red"><i class="fa fa-wrench"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Assignments</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-green"><i class="fa fa-archive"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Projects</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="fa fa-bookmark"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Events</span>
+                    <span class="info-box-number">0<small></small></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+}
